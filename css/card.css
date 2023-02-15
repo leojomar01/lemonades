@@ -1,0 +1,35 @@
+.productMenu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.productMenu .card {
+  margin-top: 20vh;
+  width: 20vw;
+  height: 70vh;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.productMenu .card .productName {
+  margin-top: 45vh;
+  font-size: 8vh;
+}
+.productMenu .card .button {
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1.8rem;
+  padding: 0.5rem 1rem;
+  mix-blend-mode: lighten;
+  background-color: white;
+  border: 0.1rem solid transparent;
+  width: 8rem;
+  z-index: 2;
+}
+.productMenu .card .button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: 0.1rem solid white;
+}/*# sourceMappingURL=card.css.map */

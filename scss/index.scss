@@ -1,0 +1,92 @@
+
+
+$products:'sprite','fanta','lipton';
+$BGs : (
+  sprite : (
+    1 : #00c203,
+    2 : #035d05,
+    left:'lipton',
+    right: 'fanta',
+    fruit: 'lemon',
+    fruitL: 'peach',
+    fruitR: 'orange'
+  ),
+  fanta : (
+    1 : #ef9607,
+    2 : #503202,
+    left : 'sprite',
+    right : 'lipton',
+    fruit: 'orange',
+    fruitL: 'lemon',
+    fruitR: 'peach'
+  ),
+  lipton : (
+    1 : #d1cd00,
+    2 : #585700,
+    left : 'fanta',
+    right : 'sprite',
+    fruit: 'peach',
+    fruitL: 'orange',
+    fruitR: 'lemon'
+  )
+);
+
+@function product($BG, $position: 1) {
+  @return map-get(map-get($BGs, $BG), $position)
+}
+
+
+@each $product in $products{
+
+    ##{$product}{
+       
+
+        .productView{
+            background-image: linear-gradient(to bottom right,product($product, 1) , product($product, 1), product($product, 2));
+            
+
+            .canM{
+                background-image: url('../images/'+$product+'.png');
+            }
+            .canL{
+                background-image: url('../images/'+product($product, left)+'.png');
+            }
+            .canR{
+                background-image: url('../images/'+product($product, right)+'.png');
+            }
+            .fruit1{
+                background-image: url('../images/'+product($product, fruit)+'1.png');
+            }
+            .fruit2{
+                background-image: url('../images/'+product($product, fruit)+'2.png');
+            }
+            .fruitL{
+                background-image: url('../images/'+product($product, fruitL)+'1.png');
+            }
+            .fruitR{
+                background-image: url('../images/'+product($product, fruitR)+'1.png');
+            }
+        }
+        .productInfo, .productMenu{
+            background-color:  product($product, 2);
+        }
+        .productInfo{
+            .right{
+                .button{
+                    background-color:  product($product, 1);
+                }
+            }
+        }
+        .productMenu{
+            .cardM{
+                background-color:  product($product, 1);
+            }
+            .cardL{
+                background-color:  product(product($product, left), 1);
+            }
+            .cardR{
+                background-color:  product(product($product, right), 1);
+            }
+        }
+    }
+}

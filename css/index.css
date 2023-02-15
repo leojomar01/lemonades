@@ -1,0 +1,119 @@
+#sprite .productView {
+  background-image: linear-gradient(to bottom right, #00c203, #00c203, #035d05);
+}
+#sprite .productView .canM {
+  background-image: url("../images/sprite.png");
+}
+#sprite .productView .canL {
+  background-image: url("../images/lipton.png");
+}
+#sprite .productView .canR {
+  background-image: url("../images/fanta.png");
+}
+#sprite .productView .fruit1 {
+  background-image: url("../images/lemon1.png");
+}
+#sprite .productView .fruit2 {
+  background-image: url("../images/lemon2.png");
+}
+#sprite .productView .fruitL {
+  background-image: url("../images/peach1.png");
+}
+#sprite .productView .fruitR {
+  background-image: url("../images/orange1.png");
+}
+#sprite .productInfo, #sprite .productMenu {
+  background-color: #035d05;
+}
+#sprite .productInfo .right .button {
+  background-color: #00c203;
+}
+#sprite .productMenu .cardM {
+  background-color: #00c203;
+}
+#sprite .productMenu .cardL {
+  background-color: #d1cd00;
+}
+#sprite .productMenu .cardR {
+  background-color: #ef9607;
+}
+
+#fanta .productView {
+  background-image: linear-gradient(to bottom right, #ef9607, #ef9607, #503202);
+}
+#fanta .productView .canM {
+  background-image: url("../images/fanta.png");
+}
+#fanta .productView .canL {
+  background-image: url("../images/sprite.png");
+}
+#fanta .productView .canR {
+  background-image: url("../images/lipton.png");
+}
+#fanta .productView .fruit1 {
+  background-image: url("../images/orange1.png");
+}
+#fanta .productView .fruit2 {
+  background-image: url("../images/orange2.png");
+}
+#fanta .productView .fruitL {
+  background-image: url("../images/lemon1.png");
+}
+#fanta .productView .fruitR {
+  background-image: url("../images/peach1.png");
+}
+#fanta .productInfo, #fanta .productMenu {
+  background-color: #503202;
+}
+#fanta .productInfo .right .button {
+  background-color: #ef9607;
+}
+#fanta .productMenu .cardM {
+  background-color: #ef9607;
+}
+#fanta .productMenu .cardL {
+  background-color: #00c203;
+}
+#fanta .productMenu .cardR {
+  background-color: #d1cd00;
+}
+
+#lipton .productView {
+  background-image: linear-gradient(to bottom right, #d1cd00, #d1cd00, #585700);
+}
+#lipton .productView .canM {
+  background-image: url("../images/lipton.png");
+}
+#lipton .productView .canL {
+  background-image: url("../images/fanta.png");
+}
+#lipton .productView .canR {
+  background-image: url("../images/sprite.png");
+}
+#lipton .productView .fruit1 {
+  background-image: url("../images/peach1.png");
+}
+#lipton .productView .fruit2 {
+  background-image: url("../images/peach2.png");
+}
+#lipton .productView .fruitL {
+  background-image: url("../images/orange1.png");
+}
+#lipton .productView .fruitR {
+  background-image: url("../images/lemon1.png");
+}
+#lipton .productInfo, #lipton .productMenu {
+  background-color: #585700;
+}
+#lipton .productInfo .right .button {
+  background-color: #d1cd00;
+}
+#lipton .productMenu .cardM {
+  background-color: #d1cd00;
+}
+#lipton .productMenu .cardL {
+  background-color: #ef9607;
+}
+#lipton .productMenu .cardR {
+  background-color: #00c203;
+}/*# sourceMappingURL=index.css.map */

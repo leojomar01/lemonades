@@ -1,0 +1,35 @@
+.productMenu{
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+        margin-top: 20vh;
+        width: 20vw;
+        height: 70vh;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        .productName{
+            margin-top: 45vh;
+            font-size: 8vh;
+        }
+        .button{
+            text-align: center;
+            font-size: 1rem;
+            border-radius: 1.8rem;
+            padding: .5rem 1rem;
+            mix-blend-mode: lighten;
+            background-color: white;
+            border: .1rem solid transparent;
+            width: 8rem;
+            z-index: 2;
+            &:hover{
+                cursor: pointer;
+                color: white;
+                background-color: transparent;
+                border: .1rem solid white;
+            }
+        }
+    }
+}

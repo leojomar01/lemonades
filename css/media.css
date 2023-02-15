@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .productView .title {
+    flex-direction: column;
+  }
+  .productView .title p {
+    font-size: 10vw;
+  }
+  .carousel {
+    height: 100vh;
+  }
+}/*# sourceMappingURL=media.css.map */

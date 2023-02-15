@@ -1,0 +1,182 @@
+.leaves {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.leaves .leaf {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: 1.4s;
+  aspect-ratio: 1/1;
+}
+.leaves .leaf1 {
+  background-image: url("../images/leaf1.png");
+}
+.leaves .leaf2 {
+  background-image: url("../images/leaf2.png");
+}
+.leaves .leaf3 {
+  background-image: url("../images/leaf3.png");
+}
+.leaves .leaf4 {
+  background-image: url("../images/leaf4.png");
+}
+.leaves .leaf5 {
+  background-image: url("../images/leaf4.png");
+}
+
+.spriteView .leaf1 {
+  top: 15%;
+  left: 5%;
+  width: 200px;
+  transform: rotate(-30deg);
+}
+.spriteView .leaf2 {
+  top: 65%;
+  left: 25%;
+  width: 150px;
+  transform: rotate(80deg);
+}
+.spriteView .leaf3 {
+  top: 15%;
+  left: 75%;
+  width: 150px;
+  transform: rotate(-60deg);
+}
+.spriteView .leaf4 {
+  top: 55%;
+  left: 80%;
+  width: 250px;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+.spriteView .leaf5 {
+  top: 15%;
+  left: 100%;
+  width: 50px;
+  transform: rotate(206deg);
+}
+
+.liptonView .leaf1 {
+  top: 10%;
+  left: 25%;
+  width: 150px;
+  transform: rotate(206deg);
+}
+.liptonView .leaf2 {
+  top: 60%;
+  left: 85%;
+  width: 250px;
+  transform: rotate(-76deg);
+}
+.liptonView .leaf3 {
+  top: 85%;
+  left: 15%;
+  width: 250px;
+  transform: rotate(16deg);
+}
+.liptonView .leaf4 {
+  top: 5%;
+  left: 80%;
+  width: 250px;
+  transform: rotate(-206deg);
+}
+.liptonView .leaf5 {
+  top: 15%;
+  left: 100%;
+  width: 50px;
+  transform: rotate(-36deg);
+}
+
+.fantaView .leaf1 {
+  top: 85%;
+  left: 65%;
+  width: 250px;
+  transform: rotate(-416deg);
+}
+.fantaView .leaf2 {
+  top: 60%;
+  left: 5%;
+  width: 150px;
+  transform: rotate(456deg);
+}
+.fantaView .leaf3 {
+  top: 15%;
+  left: 5%;
+  width: 250px;
+  transform: rotate(0);
+}
+.fantaView .leaf4 {
+  top: 155%;
+  left: 70%;
+  width: 350px;
+}
+.fantaView .leaf5 {
+  top: 15%;
+  left: 70%;
+  width: 150px;
+  transform: rotate(-36deg);
+}
+
+.view2 .leaf1 {
+  top: -10%;
+  left: 25%;
+  width: 250px;
+  transform: rotate(36deg);
+}
+.view2 .leaf2 {
+  top: 25%;
+  left: -6%;
+  width: 15vw;
+  transform: rotate(136deg);
+}
+.view2 .leaf3 {
+  top: 65%;
+  left: -5%;
+  width: 200px;
+  transform: rotate(-90deg);
+}
+.view2 .leaf4 {
+  top: 155%;
+  left: 70%;
+  width: 350px;
+}
+.view2 .leaf5 {
+  top: 15%;
+  left: 170%;
+  width: 150px;
+  transform: rotate(-36deg);
+}
+
+.view3 .leaf1 {
+  top: 80%;
+  left: -5%;
+  width: 250px;
+  transform: rotate(-50deg);
+}
+.view3 .leaf2 {
+  top: -10%;
+  left: 16%;
+  width: 10vw;
+  transform: rotate(170deg);
+}
+.view3 .leaf3 {
+  top: -10%;
+  left: 90%;
+  width: 200px;
+  transform: rotate(180deg);
+}
+.view3 .leaf4 {
+  top: 155%;
+  left: 70%;
+  width: 350px;
+}
+.view3 .leaf5 {
+  top: 15%;
+  left: 170%;
+  width: 150px;
+  transform: rotate(-36deg);
+}/*# sourceMappingURL=leaves.css.map */

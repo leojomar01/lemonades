@@ -1,0 +1,222 @@
+.leaves{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+    .leaf{
+        background-size:  100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: 1.4s;
+        aspect-ratio: 1/1;
+    }
+
+    .leaf1{
+        background-image: url('../images/leaf1.png');
+    }
+    .leaf2{
+        background-image: url('../images/leaf2.png');
+    }
+    .leaf3{
+        background-image: url('../images/leaf3.png');
+    }
+    .leaf4{
+        background-image: url('../images/leaf4.png');
+    }
+    .leaf5{
+        background-image: url('../images/leaf4.png');
+    }
+}
+
+
+
+
+.spriteView{
+    .leaf1{
+        top: 15%;
+        left: 5%;
+        width: 200px;
+        transform: rotate(-30deg);
+    }
+    .leaf2{
+        top: 65%;
+        left: 25%;
+        width: 150px;
+        transform: rotate(80deg);
+    }
+
+    .leaf3{
+        top: 15%;
+        left: 75%;
+        width: 150px;
+        transform: rotate(-60deg);
+    }
+    .leaf4{
+        top: 55%;
+        left: 80%;
+        width: 250px;
+        transform: rotate(30deg);
+        z-index: -1;
+    }
+    .leaf5{
+        top: 15%;
+        left: 100%;
+        width: 50px;
+        transform: rotate(206deg);
+    }
+}
+
+
+
+.liptonView{
+    .leaf1{
+        top: 10%;
+        left: 25%;
+        width: 150px;
+        transform: rotate(206deg);
+    }
+    .leaf2{
+        top: 60%;
+        left: 85%;
+        width: 250px;
+        transform: rotate(-76deg);
+    }
+
+    .leaf3{
+        top: 85%;
+        left: 15%;
+        width: 250px;
+        transform: rotate(16deg);
+
+    }
+    .leaf4{
+        top: 5%;
+        left: 80%;
+        width: 250px;
+        transform: rotate(-206deg);
+
+    }
+    .leaf5{
+        top: 15%;
+        left: 100%;
+        width: 50px;
+        transform: rotate(-36deg);
+    }
+}
+
+.fantaView{
+    .leaf1{
+        top: 85%;
+        left: 65%;
+        width: 250px;
+        transform: rotate(-416deg);
+    }
+    .leaf2{
+        top: 60%;
+        left: 5%;
+        width: 150px;
+        transform: rotate(456deg);
+
+    }
+
+    .leaf3{
+        top: 15%;
+        left: 5%;
+        width: 250px;
+        transform: rotate(0);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 70%;
+        width: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
+
+.view2{
+    .leaf1{
+        top: -10%;
+        left:25%;
+        width: 250px;
+        transform: rotate(36deg);
+    }
+    .leaf2{
+        top: 25%;
+        left: -6%;
+        width: 15vw;
+        transform: rotate(136deg);
+
+    }
+
+    .leaf3{
+        top: 65%;
+        left: -5%;
+        width: 200px;
+        transform: rotate(-90deg);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 170%;
+        width: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
+
+.view3{
+    .leaf1{
+        top: 80%;
+        left:-5%;
+        width: 250px;
+        transform: rotate(-50deg);
+
+    }
+    .leaf2{
+        top: -10%;
+        left: 16%;
+        width: 10vw;
+        transform: rotate(170deg);
+    }
+
+    .leaf3{
+        top: -10%;
+        left: 90%;
+        width: 200px;
+        transform: rotate(180deg);
+
+    }
+    .leaf4{
+        top: 155%;
+        left: 70%;
+        width: 350px;
+        
+    }
+    .leaf5{
+        top: 15%;
+        left: 170%;
+        width: 150px;
+        transform: rotate(-36deg);
+
+    }
+}
+
+
+
