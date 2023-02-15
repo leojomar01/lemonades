@@ -30,17 +30,17 @@ let row = 1;
 function goTo(e){
   switch(e){
     case 1:
-      p1[index].scrollIntoView();
+      p1[index].scrollIntoView(true);
       pages.classList.remove('view2','view3');
       pages.classList.add('view1');
       break;
     case 2:
-      p2[index].scrollIntoView();
+      p2[index].scrollIntoView(true);
       pages.classList.remove('view1','view3');
       pages.classList.add('view2');
       break;
     case 3:
-      p3[index].scrollIntoView();
+      p3[index].scrollIntoView(true);
       pages.classList.remove('view2','view1');
       pages.classList.add('view3');
       break;
@@ -75,11 +75,10 @@ window.onwheel = e => {
   }
   console.log(row);
 }
-let touchstartY = 0
-let touchendY = 0
+let touchstartY, touchstartX, touchendY, touchendX = 0;
     
 function checkDirection() {
-  if (touchendY > touchstartY){
+  if (touchendY < touchstartY){
     switch(row){
       case 1:
         goTo(2);break;
@@ -89,7 +88,8 @@ function checkDirection() {
         goTo(3);break;
     }
   };
-  if (touchendY < touchstartY){
+  
+  if (touchendY > touchstartY){
     switch(row){
       case 3:
         goTo(2);break;
@@ -102,11 +102,14 @@ function checkDirection() {
 }
 
 document.addEventListener('touchstart', e => {
-  touchstartY = e.changedTouches[0].screenX
+  touchstartY = e.changedTouches[0].screenY
+  touchstartX = e.changedTouches[0].screenX
 })
 
 document.addEventListener('touchend', e => {
-  touchendY = e.changedTouches[0].screenX
+  touchendY = e.changedTouches[0].screenY
+  touchendX = e.changedTouches[0].screenX
+  console.log(touchstartY,touchendY)
   checkDirection()
 })
 

@@ -43,6 +43,7 @@
 
 body{
     overflow: hidden;
+    touch-action: none;
 }
 .carousel{
     height: 90vh;

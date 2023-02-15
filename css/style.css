@@ -40,6 +40,7 @@
 
 body {
   overflow: hidden;
+  touch-action: none;
 }
 
 .carousel {
