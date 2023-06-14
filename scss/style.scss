@@ -19,6 +19,7 @@
         background-repeat: no-repeat;
         z-index: 2;
         transition: 1.5s;
+       
     }
     .fruit{
         position: absolute;
@@ -160,6 +161,9 @@ nav{
         left: 41vw;
         height: 35vw;
         width: 16vw;
+        &:hover{
+            cursor: pointer;
+        }
     }
     
     .fruit1{
@@ -183,6 +187,9 @@ nav{
         left:10vw;
         height: 35vw;
         width: 18vw;
+        &:hover{
+            cursor: pointer;
+        }
     }
     .canL{
         top: 220vh;
@@ -229,6 +236,9 @@ nav{
         left:42vw;
         height: 30vw;
         width: 16vw;
+        &:hover{
+            cursor: default;
+        }
     }
     .canL{
         top: 205vh;

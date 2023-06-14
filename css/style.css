@@ -142,6 +142,9 @@ nav .left, nav .right {
   height: 35vw;
   width: 16vw;
 }
+.view1 .canM:hover {
+  cursor: pointer;
+}
 .view1 .fruit1 {
   top: 18vh;
   left: 30vw;
@@ -162,6 +165,9 @@ nav .left, nav .right {
   left: 10vw;
   height: 35vw;
   width: 18vw;
+}
+.view2 .canM:hover {
+  cursor: pointer;
 }
 .view2 .canL {
   top: 220vh;
@@ -205,6 +211,9 @@ nav .left, nav .right {
   left: 42vw;
   height: 30vw;
   width: 16vw;
+}
+.view3 .canM:hover {
+  cursor: default;
 }
 .view3 .canL {
   top: 205vh;

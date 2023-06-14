@@ -48,6 +48,23 @@ function goTo(e){
   row = e;
 }
 
+let canM = document.querySelectorAll(".canM");
+const lrows = [0, 1, 2 ];
+lrows.forEach(function(lrow) {
+  canM[lrow].addEventListener("click", function() {
+    switch(row) {
+      case 1:
+        goTo(2);
+        break;
+      case 2:
+        goTo(3);
+        break;
+      case 3:
+        goTo(3);
+        break;
+    }
+  });
+});
 
 window.onwheel = e => {
 
