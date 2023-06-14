@@ -138,9 +138,9 @@ nav .left, nav .right {
 
 .view1 .canM {
   top: 15vh;
-  left: 40vw;
+  left: 41vw;
   height: 35vw;
-  width: 18vw;
+  width: 16vw;
 }
 .view1 .fruit1 {
   top: 18vh;
@@ -201,19 +201,19 @@ nav .left, nav .right {
 }
 
 .view3 .canM {
-  top: 215vh;
+  top: 205vh;
   left: 42vw;
   height: 30vw;
   width: 16vw;
 }
 .view3 .canL {
-  top: 215vh;
+  top: 205vh;
   left: 12vw;
   height: 30vw;
   width: 16vw;
 }
 .view3 .canR {
-  top: 215vh;
+  top: 205vh;
   left: 72vw;
   height: 30vw;
   width: 16vw;
